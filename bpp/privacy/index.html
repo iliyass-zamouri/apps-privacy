@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for BPP — football prediction leagues by Hailsom.">
+  <title>Privacy Policy — BPP</title>
+  <link rel="icon" type="image/png" href="../web/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #000000;
+      --surface: #0a0a0a;
+      --surface-high: #141414;
+      --text: #ffffff;
+      --muted: #b8b8b8;
+      --faint: #8a8a8a;
+      --line: #2e2e2e;
+      --red: #e31b23;
+      --red-deep: #8b0000;
+      --green: #008751;
+      --green-soft: #2c8438;
+      --max: 42rem;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      min-height: 100vh;
+      font-family: "DM Sans", system-ui, sans-serif;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--text);
+      background:
+        radial-gradient(ellipse 90% 55% at 15% -10%, rgba(227, 27, 35, 0.28), transparent 55%),
+        radial-gradient(ellipse 70% 45% at 95% 5%, rgba(0, 135, 81, 0.18), transparent 50%),
+        linear-gradient(180deg, #0a0505 0%, var(--bg) 28%, var(--bg) 100%);
+    }
+
+    a { color: var(--green-soft); text-underline-offset: 3px; }
+    a:hover { color: #9ae6ae; }
+
+    .wrap {
+      width: min(100% - 2.5rem, var(--max));
+      margin-inline: auto;
+      padding: 2.5rem 0 4rem;
+    }
+
+    header {
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.55rem;
+      text-decoration: none;
+      color: var(--text);
+      margin-bottom: 1.75rem;
+    }
+
+    .brand-mark {
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 800;
+      font-size: 1.85rem;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      color: var(--red);
+    }
+
+    .brand-sub {
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--faint);
+    }
+
+    h1 {
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 800;
+      font-size: clamp(2.4rem, 7vw, 3.35rem);
+      letter-spacing: 0.02em;
+      line-height: 1.05;
+      text-transform: uppercase;
+      margin-bottom: 0.65rem;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .meta strong { color: var(--text); font-weight: 600; }
+
+    nav.toc {
+      margin: 1.75rem 0 0;
+      padding: 1rem 1.15rem;
+      background: var(--surface-high);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+
+    nav.toc p {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--faint);
+      margin-bottom: 0.55rem;
+    }
+
+    nav.toc ol {
+      list-style: none;
+      display: grid;
+      gap: 0.35rem;
+      columns: 2;
+      column-gap: 1.25rem;
+    }
+
+    @media (max-width: 560px) {
+      nav.toc ol { columns: 1; }
+    }
+
+    nav.toc a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.92rem;
+    }
+
+    nav.toc a:hover { color: var(--text); }
+
+    nav.toc li { break-inside: avoid; }
+
+    nav.toc li::before {
+      content: attr(data-n);
+      color: var(--red);
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 700;
+      margin-right: 0.4rem;
+      font-size: 0.95rem;
+    }
+
+    main section {
+      padding: 1.6rem 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    main section:last-of-type { border-bottom: none; }
+
+    h2 {
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 700;
+      font-size: 1.55rem;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+      color: var(--text);
+    }
+
+    h2 span {
+      color: var(--red);
+      margin-right: 0.35rem;
+    }
+
+    p + p, p + ul, ul + p { margin-top: 0.85rem; }
+
+    ul {
+      padding-left: 1.15rem;
+      color: var(--muted);
+    }
+
+    li { margin: 0.35rem 0; }
+    li strong { color: var(--text); font-weight: 600; }
+
+    p { color: var(--muted); }
+    p strong { color: var(--text); font-weight: 600; }
+
+    .callout {
+      margin-top: 1rem;
+      padding: 0.95rem 1.1rem;
+      background: linear-gradient(135deg, rgba(227, 27, 35, 0.12), rgba(0, 135, 81, 0.08));
+      border-left: 3px solid var(--green);
+      border-radius: 0 8px 8px 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--line);
+      color: var(--faint);
+      font-size: 0.85rem;
+    }
+
+    footer .company {
+      color: var(--muted);
+      margin-bottom: 0.35rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="../web/index.html">
+        <span class="brand-mark">BPP</span>
+        <span class="brand-sub">by Hailsom</span>
+      </a>
+      <h1>Privacy Policy</h1>
+      <p class="meta">
+        <strong>Effective date:</strong> July 27, 2026<br>
+        <strong>Last updated:</strong> July 27, 2026
+      </p>
+      <nav class="toc" aria-label="Table of contents">
+        <p>Contents</p>
+        <ol>
+          <li data-n="01"><a href="#who">Who we are</a></li>
+          <li data-n="02"><a href="#collect">Information we collect</a></li>
+          <li data-n="03"><a href="#use">How we use information</a></li>
+          <li data-n="04"><a href="#share">Sharing</a></li>
+          <li data-n="05"><a href="#retention">Retention</a></li>
+          <li data-n="06"><a href="#security">Security</a></li>
+          <li data-n="07"><a href="#rights">Your rights</a></li>
+          <li data-n="08"><a href="#children">Children</a></li>
+          <li data-n="09"><a href="#changes">Changes</a></li>
+          <li data-n="10"><a href="#contact">Contact</a></li>
+        </ol>
+      </nav>
+    </header>
+
+    <main>
+      <section id="who">
+        <h2><span>01</span> Who we are</h2>
+        <p>
+          This Privacy Policy describes how <strong>Hailsom</strong> (“we”, “us”, or “our”)
+          collects, uses, and shares information when you use the
+          <strong>BPP</strong> mobile and web application (“Service”) — a football
+          prediction and league competition product (package
+          <code style="color:#9ae6ae">com.hailsom.bpp</code>).
+        </p>
+        <p>
+          By using BPP, you agree to this Policy. If you do not agree, do not use the Service.
+        </p>
+      </section>
+
+      <section id="collect">
+        <h2><span>02</span> Information we collect</h2>
+        <p>We may collect the following categories of information:</p>
+        <ul>
+          <li>
+            <strong>Account information.</strong> When you sign in with Google or Apple,
+            we receive identifiers such as your name, email address, and authentication
+            tokens provided by that provider.
+          </li>
+          <li>
+            <strong>Profile &amp; gameplay data.</strong> Display name, predictions,
+            scores, league memberships, invite codes you create or join, and standings
+            related to your activity.
+          </li>
+          <li>
+            <strong>Device &amp; usage data.</strong> App version, device type / OS,
+            language, crash logs, and basic analytics needed to operate and improve BPP.
+          </li>
+          <li>
+            <strong>Communications.</strong> Messages you send us (support requests,
+            feedback).
+          </li>
+        </ul>
+        <div class="callout">
+          We do not ask for payment card numbers inside BPP for core prediction play.
+          If billing is added later, this Policy will be updated before collection begins.
+        </div>
+      </section>
+
+      <section id="use">
+        <h2><span>03</span> How we use information</h2>
+        <p>We use information to:</p>
+        <ul>
+          <li>Create and manage your account and leagues</li>
+          <li>Record predictions, compute scores, and show standings</li>
+          <li>Authenticate you via Google or Apple Sign-In</li>
+          <li>Provide customer support and respond to requests</li>
+          <li>Monitor reliability, prevent abuse, and improve the Service</li>
+          <li>Comply with law and enforce our terms</li>
+        </ul>
+        <p>We do <strong>not</strong> sell your personal information.</p>
+      </section>
+
+      <section id="share">
+        <h2><span>04</span> Sharing</h2>
+        <p>We may share information with:</p>
+        <ul>
+          <li>
+            <strong>Other users</strong> — display name, predictions (as shown in-app),
+            and league standings are visible to members of leagues you join.
+          </li>
+          <li>
+            <strong>Service providers</strong> — hosting, authentication, analytics, and
+            crash reporting vendors who process data only to provide services to us.
+          </li>
+          <li>
+            <strong>Auth providers</strong> — Google and Apple process sign-in under their
+            own privacy policies.
+          </li>
+          <li>
+            <strong>Legal</strong> — when required by law, or to protect rights, safety,
+            and integrity of users and Hailsom.
+          </li>
+        </ul>
+      </section>
+
+      <section id="retention">
+        <h2><span>05</span> Retention</h2>
+        <p>
+          We keep personal data only as long as needed to provide the Service, meet legal
+          obligations, resolve disputes, and enforce agreements. When you delete your
+          account (or request deletion), we remove or anonymize associated personal data
+          within a reasonable period, except where retention is required by law.
+        </p>
+      </section>
+
+      <section id="security">
+        <h2><span>06</span> Security</h2>
+        <p>
+          We use industry-standard measures to protect information in transit and at rest.
+          No method of transmission or storage is 100% secure; we cannot guarantee absolute
+          security.
+        </p>
+      </section>
+
+      <section id="rights">
+        <h2><span>07</span> Your rights</h2>
+        <p>
+          Depending on your location, you may have rights to access, correct, export, or
+          delete your personal data, and to object to or restrict certain processing.
+          To exercise these rights, contact us using the details below. You may also
+          revoke Google or Apple access from your provider account settings.
+        </p>
+      </section>
+
+      <section id="children">
+        <h2><span>08</span> Children</h2>
+        <p>
+          BPP is not directed at children under 13 (or the minimum age required in your
+          jurisdiction). We do not knowingly collect personal information from children.
+          If you believe a child has provided us data, contact us and we will delete it.
+        </p>
+      </section>
+
+      <section id="changes">
+        <h2><span>09</span> Changes</h2>
+        <p>
+          We may update this Policy from time to time. The “Last updated” date at the top
+          will change when we do. Continued use of BPP after changes means you accept the
+          revised Policy.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2><span>10</span> Contact</h2>
+        <p>
+          Questions about this Privacy Policy or your data:
+        </p>
+        <ul>
+          <li><strong>Controller:</strong> Hailsom</li>
+          <li><strong>App:</strong> BPP (<code style="color:#9ae6ae">com.hailsom.bpp</code>)</li>
+          <li><strong>Email:</strong> <a href="mailto:privacy@hailsom.com">privacy@hailsom.com</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p class="company">© 2026 Hailsom. All rights reserved.</p>
+      <p>BPP — football prediction leagues.</p>
+    </footer>
+  </div>
+</body>
+</html>
