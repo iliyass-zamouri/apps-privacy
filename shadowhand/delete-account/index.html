@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ShadowHand — Delete Account</title>
+    <meta name="description" content="How to delete your ShadowHand account and data." />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0f1412;
+        --surface: #171d1a;
+        --text: #f2f5f1;
+        --muted: #a4b0a8;
+        --accent: #d4af37;
+        --border: rgba(212, 175, 55, 0.28);
+        --link: #e6c76a;
+      }
+
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f7f5f0;
+          --surface: #ffffff;
+          --text: #1a1f1c;
+          --muted: #5c675f;
+          --accent: #8a6d1f;
+          --border: rgba(138, 109, 31, 0.25);
+          --link: #7a5f12;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          "Segoe UI",
+          system-ui,
+          -apple-system,
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        background:
+          radial-gradient(
+            ellipse 80% 50% at 50% -10%,
+            rgba(212, 175, 55, 0.12),
+            transparent 60%
+          ),
+          var(--bg);
+        color: var(--text);
+        line-height: 1.65;
+      }
+
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      header {
+        margin-bottom: 36px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .eyebrow {
+        display: inline-block;
+        margin: 0 0 10px;
+        color: var(--accent);
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(1.75rem, 4vw, 2.25rem);
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+      }
+
+      .meta {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      section {
+        margin: 28px 0;
+        padding: 22px 20px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 1.15rem;
+        color: var(--accent);
+      }
+
+      p,
+      ul {
+        margin: 0 0 12px;
+      }
+
+      p:last-child,
+      ul:last-child {
+        margin-bottom: 0;
+      }
+
+      ul {
+        padding-left: 1.2rem;
+      }
+
+      li {
+        margin: 0.35rem 0;
+      }
+
+      a {
+        color: var(--link);
+      }
+
+      footer {
+        margin-top: 28px;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">ShadowHand</p>
+        <h1>Delete Your Account</h1>
+        <p class="meta">
+          Effective date: October 6, 2026<br />
+          Last updated: October 6, 2026
+        </p>
+      </header>
+
+      <section>
+        <h2>Delete your account</h2>
+        <p>You can permanently delete your ShadowHand account and its associated data at any time.</p>
+      </section>
+
+      <section>
+        <h2>In the app (recommended)</h2>
+        <ol>
+          <li>Open ShadowHand and tap <strong>Settings</strong>.</li>
+          <li>Tap <strong>Delete Account</strong>.</li>
+          <li>Confirm. You will be signed out and returned to the sign-in screen.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>By email</h2>
+        <p>If you cannot access the app, email <a href="mailto:privacy@hailsom.com">privacy@hailsom.com</a> from the address linked to your Google account (or include your username) and we will delete the account.</p>
+      </section>
+
+      <section>
+        <h2>What is deleted</h2>
+        <ul>
+          <li>Your player profile, username, display name, and avatar</li>
+          <li>Progress, rankings, virtual currency, owned items, and rewards</li>
+          <li>Friends, friend requests, blocks, and player reports</li>
+          <li>Match records linked to you</li>
+          <li>Push notification tokens</li>
+          <li>Your linked Google account identifier and email address</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>What may be kept</h2>
+        <ul>
+          <li>Anonymized purchase transaction identifiers, kept only to prevent duplicate redemption and for accounting and legal compliance; they are no longer linked to you.</li>
+          <li>Purchases remain with Apple or Google; manage or request refunds through your store account.</li>
+          <li>Crash and analytics data held by Google Firebase expires under Google’s own retention schedule.</li>
+        </ul>        <p>Deletion is permanent and cannot be undone. Purchased items are not refunded by deleting your account.</p>
+      </section>
+
+      <footer>
+        © 2026 ShadowHand · Hailsom ·
+        <a href="https://iliyass-zamouri.github.io/apps-privacy/shadowhand/privacy/">Privacy Policy</a> ·
+        <a href="https://iliyass-zamouri.github.io/apps-privacy/shadowhand/terms/">Terms of Service</a> ·
+        <a href="https://iliyass-zamouri.github.io/apps-privacy/shadowhand/delete-account/">Delete account</a>
+      </footer>
+    </main>
+  </body>
+</html>
